@@ -2,7 +2,8 @@
 HRMS Lite is a simple Human Resource Management System that allows managing employees and tracking attendance. The backend is built with FastAPI and the frontend with React.
 
 ## Link:
-https://hrms-five-mu.vercel.app/
+Start backend first-> https://hrms-ilnt.onrender.com/docs
+Then -> https://hrms-five-mu.vercel.app/
 
 ## Features
 1. Add, delete, and list employees
