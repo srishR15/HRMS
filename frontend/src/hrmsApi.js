@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE = "http://127.0.0.1:8000"; // Your FastAPI backend
+const API_BASE = process.env.REACT_APP_API_BASE || "";
 
 // Employees
 export const getEmployees = async () => {

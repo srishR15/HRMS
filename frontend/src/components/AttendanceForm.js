@@ -19,7 +19,7 @@ const AttendanceForm = ({ refresh }) => {
     e.preventDefault();
     try {
       await markAttendance({ employee_id: parseInt(employee_id), status, date });
-      refresh(); // trigger AttendanceList refresh
+      refresh();
       setEmployeeId("");
       setStatus("Present");
     } catch (err) {

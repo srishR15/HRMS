@@ -1,4 +1,3 @@
-// AttendanceList.js
 import React, { useState, useEffect } from "react";
 import { getEmployees, getAttendance } from "../hrmsApi";
 
@@ -26,7 +25,7 @@ const AttendanceList = () => {
 
   useEffect(() => {
     fetchAttendance(selectedId);
-    setFilterDate(""); // reset date filter when employee changes
+    setFilterDate("");
   }, [selectedId]);
 
   // Filtered attendance by date

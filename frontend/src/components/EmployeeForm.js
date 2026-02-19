@@ -16,13 +16,11 @@ const EmployeeForm = ({ employees, setEmployees }) => {
       const data = await getEmployees();
       setEmployees(data);
 
-      // Clear form
       setFullName("");
       setEmail("");
       setDepartment("");
       setErrorMsg("");
     } catch (err) {
-      // Show inline error for duplicate email or other errors
       setErrorMsg(err.response?.data?.detail || "Error adding employee");
     }
   };

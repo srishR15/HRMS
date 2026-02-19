@@ -3,7 +3,7 @@ import AttendanceForm from "./AttendanceForm";
 import AttendanceList from "./AttendanceList";
 
 const Attendance = () => {
-  const [refresh, setRefresh] = useState(false); // trigger refresh
+  const [refresh, setRefresh] = useState(false);
 
   return (
     <div>

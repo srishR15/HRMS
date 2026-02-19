@@ -6,7 +6,6 @@ import { getEmployees } from "../hrmsApi";
 const Employee = () => {
   const [employees, setEmployees] = useState([]);
 
-  // Fetch employees on mount
   useEffect(() => {
     const fetchEmployees = async () => {
       const data = await getEmployees();
