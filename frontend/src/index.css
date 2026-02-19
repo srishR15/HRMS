@@ -23,7 +23,7 @@ h1, h2 {
 }
 
 .nav-buttons button {
-  background-color: #00cccc; /* slightly darker than normal cyan */
+  background-color: #00cccc; 
   border: none;
   border-radius: 5px;
   padding: 0.5rem 1rem;
@@ -35,9 +35,9 @@ h1, h2 {
 }
 
 .nav-buttons button.active {
-  background-color: #00ffff; /* brighter cyan for active */
-  box-shadow: 0 0 6px rgba(0, 255, 255, 0.3); /* subtle but visible glow */
-  border-bottom: 3px solid #00ffff; /* adds strong visual indicator */
+  background-color: #00ffff; 
+  box-shadow: 0 0 6px rgba(0, 255, 255, 0.3);
+  border-bottom: 3px solid #00ffff; 
 }
 
 .bg-cardbg {
@@ -92,15 +92,15 @@ li {
   justify-content: space-between;
 }
 
-/* Attendance Summary Box */
+
 .attendance-summary {
   max-width: 100%;
 }
 
 .summary-heading {
-  font-size: 1rem; /* smaller than h2 */
+  font-size: 1rem;
   font-weight: 600;
-  color: #2225d6; /* subtle cyan so it doesn't overshadow the main heading */
+  color: #2225d6; 
   text-align: center;
   margin-bottom: 0.5rem;
 }
@@ -117,32 +117,32 @@ li {
   border-bottom: none;
 }
 
-/* Wrapper so we can position our own icon */
+
 .date-wrapper {
   position: relative;
 }
 
-/* Style the date input itself */
+
 .date-wrapper input[type="date"] {
-  background-color: #3a3a3a;   /* your lighter grey if you want */
+  background-color: #3a3a3a;   
   color: #ffffff;
 }
 
-/* Hide the default Chrome calendar icon */
+
 .date-wrapper input[type="date"]::-webkit-calendar-picker-indicator {
   opacity: 0;
   cursor: pointer;
 }
 
-/* Custom light calendar icon */
+
 .date-wrapper::after {
-  content: "📅";                /* or use a background-image: url(...) */
+  content: "📅";                
   position: absolute;
   right: 12px;
   top: 50%;
   transform: translateY(-50%);
   pointer-events: none;
-  color: #00ffff;              /* bright cyan so it pops */
+  color: #00ffff;
   font-size: 16px;
 }
 
